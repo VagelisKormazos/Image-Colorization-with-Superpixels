@@ -30,15 +30,22 @@ This repository contains a Python script for image colorization using superpixel
 8. **Optional Model Saving:**
    - Optionally, save the trained LinearSVR model.
 
-## Dependencies
+## What's Included
 
-- OpenCV
-- scikit-image
-- scikit-learn
-- joblib
-- matplotlib
+- **Python Libraries:** OpenCV, scikit-image, scikit-learn, joblib, matplotlib.
+- **Image Processing Techniques:** Lab color space conversion, SURF feature extraction, SLIC superpixel segmentation.
+- **Machine Learning Model:** Linear Support Vector Regression (LinearSVR).
 
-Install the required dependencies using:
+## What I Learned
 
-```bash
-pip install opencv-python scikit-image scikit-learn joblib matplotlib
+- Image representation in different color spaces.
+- Feature extraction using SURF.
+- Superpixel segmentation with SLIC.
+- Training and using a regression model for color prediction.
+- GitHub repository setup and README documentation.
+
+## How to Use
+
+1. **Clone this repository:**
+   ```bash
+   git clone https://github.com/your-username/image-colorization.git
